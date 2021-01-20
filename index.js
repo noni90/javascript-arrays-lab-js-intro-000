@@ -5,3 +5,8 @@ function destructivelyAppendKitten(name)
 {
   return kittens.push(name);
 }
+function destructivelyPrependKitten(name)
+{
+  kittens.slice(name);
+  return kittens;
+}
